@@ -1,0 +1,23 @@
+.crop-img{
+  max-height:150px;
+  max-width:100%;
+}
+
+.large-img{
+  max-width:100%;
+}
+
+
+/*
+ * uncomment this for some css3 drop shadows and rounded corners.
+ */
+
+
+.thumbnail, .large-img, .crop-img{
+  border-radius: 5px;
+  padding-top:2px;
+}
+
+.thumbnail{
+  box-shadow: 10px 10px 5px #888888;
+}
